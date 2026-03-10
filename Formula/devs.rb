@@ -2,27 +2,27 @@ class Devs < Formula
   desc "Project-aware tmux session manager with Claude Code session tracking"
   homepage "https://github.com/julianmateu/devs-cli"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/julianmateu/devs-cli/releases/download/v0.1.0/devs-aarch64-apple-darwin.tar.gz"
-      sha256 "156df200a986c517fb2201b91b624c53c4aa4be8cd07e06a0b104224320f77e6"
+      url "https://github.com/julianmateu/devs-cli/releases/download/v0.2.0/devs-aarch64-apple-darwin.tar.gz"
+      sha256 "400c6a8eaf89c27230999ad5b176fff23e95afbd9ab05242263d7877bdd0ac8f"
     end
     on_intel do
-      url "https://github.com/julianmateu/devs-cli/releases/download/v0.1.0/devs-x86_64-apple-darwin.tar.gz"
-      sha256 "af81514a876d6538ab9e3f8e0fc009636637410d302aac4a0deca68099afb106"
+      url "https://github.com/julianmateu/devs-cli/releases/download/v0.2.0/devs-x86_64-apple-darwin.tar.gz"
+      sha256 "e280cda6da719e65a611b0e9e3ccdc6c014bcbd08bc5e70f611957a560e2549a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/julianmateu/devs-cli/releases/download/v0.1.0/devs-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3c9fe50f5a3232249ca7d23e28a566e6e5c3aa288d04c45f0680e55380ec2589"
+      url "https://github.com/julianmateu/devs-cli/releases/download/v0.2.0/devs-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4ad12dd600082bd24a8d77dc352b06b0e09522fe965cf29c88fec818d2085750"
     end
     on_intel do
-      url "https://github.com/julianmateu/devs-cli/releases/download/v0.1.0/devs-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d7954f74ce8d13e3ac9c177dcb9fd3e67bcf1208fd90071bfa6c46c598f68f5f"
+      url "https://github.com/julianmateu/devs-cli/releases/download/v0.2.0/devs-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5673e2a8a8211aae5565ff577f6343a13e6d4e581ba0a4165a22cec4af7a5808"
     end
   end
 
